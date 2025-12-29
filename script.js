@@ -4,10 +4,10 @@ class Rectangle {
     this._width = width;
     this._height = height;
   }
+
   get width() {
     return this._width;
   }
-
 
   get height() {
     return this._height;
@@ -18,8 +18,8 @@ class Rectangle {
   }
 }
 
-class Square extends Animal {
-	constructor(side) {
+class Square extends Rectangle {
+  constructor(side) {
     super(side, side);
   }
 
