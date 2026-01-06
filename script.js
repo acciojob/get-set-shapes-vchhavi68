@@ -1,7 +1,6 @@
 //complete this code
-console.log("MAIN JS LOADED");
 class Rectangle {
-	constructor(width, height) {
+	const(width, height) {
     this._width = width;
     this._height = height;
   }
@@ -20,7 +19,7 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-  constructor(side) {
+  const(side) {
     super(side, side);
   }
 
