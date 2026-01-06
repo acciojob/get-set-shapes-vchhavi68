@@ -1,4 +1,5 @@
 //complete this code
+console.log("MAIN JS LOADED");
 class Rectangle {
 	constructor(width, height) {
     this._width = width;
